@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Mapa >
+<LocInic>Iglesia</LocInic>
+<Locs >
+<Loc >
+<Nombre>Cementerio</Nombre>
+<Desc>
+
+El cementerio se encuentra ya apenas visible por los matojos. Sólo algunas lápidas destacan ya de entre la maleza, que parece haberse comido muros y construcciones.</Desc>
+<Com>Pensar- Todos los días, les añoran todos los días.</Com>
+</Loc>
+
+<Loc >
+<Nombre>Descampado del estanque</Nombre>
+<Desc>
+Desangelado, trozos de hierba se mazclan con la tierra polvorienta al aire. Un estanque encierra su agua a pocos metros ladera abajo. Salvo el trino ocasional de algún pájaro, sientes que estás solo aquí. Al margen del invitado de dentro, claro, dentro de la iglesia, casi por completo derruida, como el resto del pueblo, unos metros ladera arriba.</Desc>
+<SUR>Cementerio</SUR>
+<ESTE>Furgoneta</ESTE>
+<ADENTRO>Iglesia</ADENTRO>
+</Loc>
+
+<Loc >
+<Nombre>Despacho en tu casa</Nombre>
+<Desc>
+
+Aunque la casa es más similar a las de la nueva era que la antigua, aún tiene espacio suficiente para poder tener dormitorio, cocina, baño, y una segunda habitación que dedicas a tu despacho, por separado.</Desc>
+<Com>Es necesario recordar que hiciste la mili allí</Com>
+</Loc>
+
+<Loc >
+<Nombre>Furgoneta</Nombre>
+<Desc>
+
+El interior de la furgoneta huele a vejez y humedad. El tapizado, que muestra trozos de tela rasgados en varios lugares, se encuentra brillante y liso en aquellas zonas de roce más comunes. Una pequeña guantera y un simple salpicadero son los complementos del conductor.</Desc>
+<Com>La furgoneta tiembla cuando tomas la pista forestal que te llevará a Fraguas desde la GU-143. Detrás de ti, un bulto emite un gemido y se sacude, intentando liberarse de sus ligaduras.</Com>
+<OESTE>Descampado del estanque</OESTE>
+</Loc>
+
+<Loc >
+<Nombre>Iglesia</Nombre>
+<Desc>
+
+La penumbra invadía la sacristía, sólo rota a trozos en aquellos lugares donde las roturas de las paredes permitían la entrada de los rayos del sol. Llena de muebles inservibles, los desechos se acumulan en las esquinas, si bien el centro había sido despejado para dejar tan solo una silla. Y en la silla, un hombre.</Desc>
+<Com>Aquí el hombre le promete que si le desata, podrá ver a su mujer, secuestrada hace meses. La idea es que el choque emocional sea muy importante, de manera que se plantee un choque de cosas que desea, y entonces recuerde con qué detalle lo preparó todo como para detenerse ahora.</Com>
+<AFUERA>Descampado del estanque</AFUERA>
+</Loc>
+
+<Loc >
+<Nombre>Pista forestal</Nombre>
+<Desc>
+La furgoneta de alquiler se sacude entre los baches de la pista forestal, avanzando mientras deja un rastro de polvo de unos veinte metros por la trasera. La zona es desoladora, llena de las típicas, tristes hileras de árboles replantados.</Desc>
+</Loc>
+
+<Loc >
+<Nombre>Secretaría Juzgado 6</Nombre>
+<Desc>
+Papeles. Todo está lleno de papeles y carpetas. El hombre que tienes delante, un administrativo, está rodeado de pilares de documentos, que amenazan a cada minuto con sepultarle con su peso.</Desc>
+</Loc>
+
+</Locs>
+
+<Objs >
+<Obj >
+<Nombre>bulto</Nombre>
+<Desc>El bulto no deja de ser tu razón de existir por hoy. Una oleada de satisfacción te invade, pues dentro de muy poco tiempo podrás consumar tu destino. Por fin.Juzgado central de Madrid</Desc>
+<estaEn>Furgoneta</estaEn>
+<Escenario>S</Escenario>
+</Obj>
+
+<Obj >
+<Nombre>hombre</Nombre>
+<Desc>Su aspecto es lamentable. Está fuertemente atado a la silla, y ya has empezado a pegarle con ciertas ganas. Tiene los ojos amoratados, sangre en la mejilla y en la boca, y gimotea pidiendo que le desates y le dejes en paz.</Desc>
+<estaEn>Iglesia</estaEn>
+<Escenario>S</Escenario>
+</Obj>
+
+<Obj >
+<Nombre>lápidas</Nombre>
+<Desc>Sin embargo, aquí y allá se pueden ver lápidas despejadas, arregladas, cuidadas. Son de gente cuyos familiares les recuerdan con cariño, les añoran.</Desc>
+<estaEn>Cementerio</estaEn>
+<Escenario>S</Escenario>
+</Obj>
+
+<Obj >
+<Nombre>mapa</Nombre>
+<Desc>Es un mapa de carreteras de la zona de Muriel. Sabes que cerca están Jócar y Fraguas, aunque tendrías que esforzarte en recordar un poco aquello.</Desc>
+<estaEn>Despacho en tu casa</estaEn>
+<Escenario>S</Escenario>
+</Obj>
+
+<Obj >
+<Nombre>secretario</Nombre>
+<Desc>Es un hombre comprensivo, amable. Te mira con tristeza, empatía. No quiere hacerte daño pero la conversación con él te está reventando el estómago.</Desc>
+<estaEn>Secretaría Juzgado 6</estaEn>
+<Escenario>S</Escenario>
+</Obj>
+
+</Objs>
+
+</Mapa>
+
