@@ -13,7 +13,7 @@ undum.game.version = "1.20120810";
 /* A unique id for your game. This is never displayed. I use a UUID,
  * but you can use anything that is guaranteed unique (a URL you own,
  * or a variation on your email address, for example). */
-undum.game.id = "baltasarq.asesino." + undum.game.version;
+undum.game.id = "96d505b5-c8b4-4aa5-a212-41bc16aa9d1f." + undum.game.version;
 
 /*
  * Some defs
