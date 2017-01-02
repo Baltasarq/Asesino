@@ -3,3 +3,4 @@
 *.log
 platforms/
 android/
+build/UbuntuTouch/www

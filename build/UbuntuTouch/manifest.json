@@ -1,0 +1,14 @@
+{
+    "description":  "Aventura conversacional de venganza. An interactive revenge.",
+    "framework":    "ubuntu-sdk-15.04-html",
+    "hooks": {
+        "asesino": {
+            "apparmor": "app.json",
+            "desktop":  "app.desktop"
+        }
+    },
+    "maintainer":   "Baltasar <baltasarq@gmail.com>",
+    "name":         "asesino.baltasarq",
+    "title":        "Asesino",
+    "version":      "1.0"
+}
