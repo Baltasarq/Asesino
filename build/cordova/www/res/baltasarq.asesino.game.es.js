@@ -232,26 +232,32 @@ undum.game.id = "96d505b5-c8b4-4aa5-a212-41bc16aa9d1f." + undum.game.version;
     $.extend( locTelefono, Loc );
 
     locConduccion = {
-        "desc": [
+        desc: [
             "<p><h1>Pista forestal</h1>\
             <b>Martes, 8 de Octubre de 2001, 21h.</b><br>\
             Conduces la furgoneta por entre los baches de la pista forestal. Atr&aacute;s, queda\
             Fraguas, y... su iglesia.</p>"
         ],
-        "img": "<p align='center'><img src='res/pic/pistaForestalNoche.png'></p>",
-        "finalInanicion": "<p>Supones qu&eacute; es lo que le suceder&aacute;: morir&aacute; de hambre y sed,\
+        img: "<p align='center'><img src='res/pic/pistaForestalNoche.png'></p>",
+        finalInanicion: "<p>Supones qu&eacute; es lo que le suceder&aacute;: morir&aacute; de hambre y sed,\
             viendo pasar las horas, primero, los d&iacute;as -pocos- despu&eacute;s. Su suerte est&aacute; echada, s&iacute;, pero...\
-            <i>¿A qui&eacute;n le importa?</i><p><i>Esto es lo que quer&iacute;as, ¿no?</i></p>",
-        "finalMuere": "<p>Intentas darte prisa, no puedes imaginar c&oacute;mo de r&aacute;pido reaccionar&aacute; la polic&iacute;a,\
+            <i>¿A qui&eacute;n le importa?</i><p><i>Esto es lo que quer&iacute;as, ¿no?</i></p>\
+            <p align='right'><br/><a href='javascript: location.reload();'>\
+            Volver a empezar</a></p>",
+        finalMuere: "<p>Intentas darte prisa, no puedes imaginar c&oacute;mo de r&aacute;pido reaccionar&aacute; la polic&iacute;a,\
                         as&iacute; que le pisas a fondo, y no vuelves a respirar con calma hasta dejar la pista\
                         y tomar la carretera. Sabes que no te coger&aacute;n, pero tu alma no est&aacute; tranquila.\
                         Es curioso. Siempre pensaste que hacer esto terminar&iacute;a con todo.\
-                        <i>Sin embargo, no parece haber mejorado.</i></p>",
-        "finalVive": "<p>Intentas darte prisa, no puedes imaginar c&oacute;mo de r&aacute;pido reaccionar&aacute; la polic&iacute;a,\
+                        <i>Sin embargo, no parece haber mejorado.</i></p>\
+                        <p align='right'><br/><a href='javascript: location.reload();'>\
+                        Volver a empezar</a></p>",
+        finalVive: "<p>Intentas darte prisa, no puedes imaginar c&oacute;mo de r&aacute;pido reaccionar&aacute; la polic&iacute;a,\
                         as&iacute; que le pisas a fondo, y no vuelves a respirar con calma hasta dejar la pista\
                         y tomar la carretera. Dudas de si te coger&aacute;n, si te reconocer&aacute; el maldito, si\
                         estar&aacute; dispuesto a declarar... tantas dudas, tanta ansiedad... pero lo que\
-                        realmente te atenaza el est&oacute;mago es pensar que <i>ten&iacute;as que haberlo matado.</i></p>",
+                        realmente te atenaza el est&oacute;mago es pensar que <i>ten&iacute;as que haberlo matado.</i></p>\
+                        <p align='right'><br/><a href='javascript: location.reload();'>\
+                        Volver a empezar</a></p>",
     }
     $.extend( locConduccion, GrfLoc );
 
