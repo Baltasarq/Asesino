@@ -1,7 +1,3 @@
-build.sh
 *.bak
 *~
 *.log
-platforms/
-android/
-build/UbuntuTouch/www
